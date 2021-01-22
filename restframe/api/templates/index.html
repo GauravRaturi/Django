@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+{% load static%}
+<html lang="en">
+<head>
+  <title>NoobsCoding</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel= "stylesheet" href="{% static 'css/landing-page.css'%}">
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">NoobsCoding</a>
+          </div>
+          <ul class="nav navbar-nav">
+            
+            <li><a href="About">About Us</a></li>
+            <li><a href="Contacts">Contact Us</a></li>
+            <li><a href="Register">Register With Us</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            
+          <li><a href="Login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          </ul>
+        </div>
+      </nav>
+      <style>
+    </style>  
+     
+     <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+    
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="https://miro.medium.com/max/2560/1*cG6U1qstYDijh9bPL42e-Q.jpeg" alt="New York">
+          <div class="carousel-caption">
+            <h3>Machine Learning</h3>
+            <p>The Future is Here.</p>
+          </div>
+        </div>
+    
+        <div class="item">thumbor
+          <img src="https://cdn.softbank.jp/en/mobile/set/data/static/robot/img/shared/img-mainvisual-pepper.jpg?20180726">
+          <div class="carousel-caption">
+            <h3>Pepper-the-humanoid-robot-from-softbank-robotics</h3>
+            <p>Best of the Humaniod Robots</p>
+          </div>
+        </div>
+    
+        <div class="item">
+          <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/Deep-Learning-vs-Machine-Learning.jpg" alt="Los Angeles">
+          <div class="carousel-caption">
+            <h3>Interaction of machines and technology </h3>
+            <p>Come & Learn.</p>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div> 
+    </div> 
+      <div class="jumbotron text-center">
+        <h1>Machine Learning</h1>
+        <p>Machine learning is an application of artificial intelligence (AI) that provides systems the ability to automatically learn and improve from experience without being explicitly programmed. Machine learning focuses on the development of computer programs that can access data and use it learn for themselves.The process of learning begins with observations or data, such as examples, direct experience, or instruction, in order to look for patterns in data and make better decisions in the future based on the examples that we provide. The primary aim is to allow the computers learn automatically without human intervention or assistance and adjust actions accordingly.
+            But, using the classic algorithms of machine learning, text is considered as a sequence of keywords; instead, an approach based on semantic analysis mimics the human ability to understand the meaning of a text.
+        </p>
+      </div>
+
+      <style>
+        .jumbotron {
+          background-color: lightslategrey;
+          background-position: center;
+          color: rgb(2, 1, 10);
+          padding: 80px 20px;
+        }
+        
+        .container-fluid {
+          padding: 50px 45px;
+        }
+        </style>
+      <div class="jumbotron text-center">
+        <h1>Company</h1>
+        <p>We specialize in Machine Learning</p>
+        <form class="form-inline">
+          <div class="input-group">
+            <input type="email" class="form-control" size="50" placeholder="Email Address" required>
+            <div class="input-group-btn">
+              <button type="button" class="btn btn-danger">Subscribe</button>
+            </div>
+          </div>
+        </form>
+      </div>
+      <style>
+        .carousel-inner img {
+  -webkit-filter: grayscale(90%);
+  filter: grayscale(50%); /* make all photos black and white */
+  width: 80%; /* Set width to 100% */
+  height: auto;
+  margin: auto;
+}
+
+.carousel-caption h3 {
+  color: rgb(67, 77, 214) !important;
+}
+
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+  }
+}
+      </style>
+        </div><!-- /.jumbotron -->
+      </div><!-- /.container -->
+      <div class="container-fluid">
+        <h2>Welcome To The Future</h2>
+        <div class="row">
+          <div class="col-lg-4 col-6 px-0"><img class="img-thumbnail img-fluid" src="https://images.unsplash.com/photo-1504639725590-34d0984388bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" alt=""></div>
+          <div class="col-lg-4 col-6 px-0"><img class="img-thumbnail img-fluid" src="https://arizent.brightspotcdn.com/98/a7/e5dfbc2e4a318efaab68f30a8902/pepper-the-humanoid-robot-from-softbank-robotics..jpg" alt=""></div>
+          <div class="col-lg-4 col-6 px-0"><img class="img-thumbnail img-fluid" src="https://assets.entrepreneur.com/content/3x2/2000/20200316170356-GettyImages-1145585734.jpeg" alt=""></div>
+          <div class="col-lg-4 col-6 px-0"><img class="img-thumbnail img-fluid" src="" alt=""></div>
+          <div class="col-lg-4 col-6 px-0"><img class="img-thumbnail img-fluid" src="" alt=""></div>
+          <div class="col-lg-4 col-6 px-0"><img class="img-thumbnail img-fluid" src="" alt=""></div>
+        </div>
+      </div>
+    
+
+    <div class="container-fluid text-center">
+        <h2>SERVICES</h2>
+        <h4>What we offer</h4>
+        <br>
+        <div class="row">
+          <div class="col-sm-4">
+            <span class="glyphicon glyphicon-pencil"></span>
+            <h4>Tutorials</h4>
+            <p>We Provide live and interactive classes</p>
+          </div>
+          <div class="col-sm-4">
+            <span class="glyphicon glyphicon-flash"></span>
+            <h4>Live Projects</h4>
+            <p>Projects related to ML and AI</p>
+          </div>
+          <div class="col-sm-4">
+            <span class="glyphicon glyphicon-book"></span>
+            <h4>Artificial intelligence</h4>
+            <p>The Future is here</p>
+          </div>
+          </div>
+          <br><br>
+        <div class="row">
+          <div class="col-sm-4">
+            <span class="glyphicon glyphicon-gift"></span>
+            <h4>Deep Learning</h4>
+            <p>Live Detection of the objects</p>
+          </div>
+          <div class="col-sm-4">
+            <span class="glyphicon glyphicon-certificate"></span>
+            <h4>AWS</h4>
+            <p>Develop your work in cloud.</p>
+          </div>
+          <div class="col-sm-4">
+            <span class="glyphicon glyphicon-wrench"></span>
+            <h4>Deployment</h4>
+            <p>Deploy your website in AWS</p>
+        </div>
+        </div>
+    </div>
+    <style>
+      .logo-small 
+      {
+      color: #1f0902;
+      font-size: 50px;
+      }
+
+      .logo {
+      color: #141313;
+      font-size: 200px;
+      }
+  </style>
+</body>
+</html>
