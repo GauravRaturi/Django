@@ -1,7 +1,7 @@
 from rest_framework import serializers
-from .models import Student
+from .models import Market
 
-class StudentSerializer(serializers.ModelSerializer):
+class MarketSerializer(serializers.ModelSerializer):
  class Meta:
-  model = Student
-  fields = ['id', 'name', 'roll']
+  model = Market
+  fields = ['product', 'name', 'notified_person', 'notification_status', 'size', 'address']
