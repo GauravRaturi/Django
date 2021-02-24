@@ -2,11 +2,11 @@ version: 0.0
 os: linux
 hooks:
   BeforeInstall:
-      - location: before_install.sh
+      - location: before_install
   AfterInstall:
-      - location: after_install.sh
+      - location: after_install
    
   ApplicationStop:
-    - location: stop_application.sh
+    - location: stop_application
       timeout: 300
       runas: root
