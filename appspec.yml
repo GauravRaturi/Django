@@ -1,12 +1,20 @@
 version: 0.0
-os: linux
+os: ubuntu
 hooks:
   BeforeInstall:
       - location: before_install
+        timeout: 300
+        runas: root
+  
   AfterInstall:
       - location: after_install
+        timeout: 300
+        runas: root
+      - location: start_application
+        timeout: 300
+        runas: root
    
   ApplicationStop:
-    - location: stop_application
-      timeout: 300
-      runas: root
+      - location: stop_application
+        timeout: 300
+        runas: root
