@@ -5,3 +5,8 @@ hooks:
       - location: before_install.sh
   AfterInstall:
       - location: after_install.sh
+   
+  ApplicationStop:
+    - location: stop_application.sh
+      timeout: 300
+      runas: root
